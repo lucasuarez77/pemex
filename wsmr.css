@@ -1,0 +1,248 @@
+body {background-color: #A3BFDE;
+font-family: Verdana, Arial, Helvetica, sans-serif !important;} 
+
+img {	BORDER: 0PX;}
+a img {	BORDER: 0PX;}
+
+.background {background-color: #4274B8;}
+
+.bottombackground {background-color: #A3BFDE;}
+
+.bodytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+
+	}
+
+
+.Title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+	BORDER: 0PX;
+	text-decoration: none;
+	}
+.Title A:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+	BORDER: 0PX;
+	text-decoration: none;
+	}
+.Title A:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+	BORDER: 0PX;
+	text-decoration: none;
+	}
+
+.Title A:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+	BORDER: 0PX;
+	text-decoration: none;
+	}
+
+.top {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000066;
+	text-decoration: none;
+
+}
+.left {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;}
+.left A:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;}
+.left A:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;}
+
+.right {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.rightTitle {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.bottomlinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #000000;
+	text-decoration: none;
+}
+.backgroundtest {
+background-color: #4274B8;
+}
+.topTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000066;
+
+}
+.table {
+	border: groove;
+
+
+
+}
+.tabletop {
+	border-top: none;
+	border-right: groove;
+	border-bottom: groove;
+	border-left: none;
+
+}
+.tablebottomright {
+
+	border-top: none;
+	border-right: groove;
+	border-bottom: groove;
+	border-left: none;
+}
+.tablebottom {
+
+	border-top: none;
+	border-right: none;
+	border-bottom: groove;
+	border-left: none;
+}
+
+.bodylinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0066CC;
+	text-decoration: underline;
+	font-weight: bold;
+	font-variant: small-caps;
+
+}
+.bodylinks A:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0066CC;
+	text-decoration: underline;
+	font-weight: normal;
+	font-variant: normal;
+
+}
+.bodylinks A:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0066CC;
+	text-decoration: underline;
+	font-weight: normal;
+	font-variant: normal;
+
+}
+.frontnews {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 12px;
+
+}
+
+/*NEW CSS Nov. 8th, 2004*/
+
+.mainbodytext, .mainbodytext table{
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;}
+.mainbodytext a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: 0000CC;
+	text-decoration: underline;}
+.mainbodytext a:hover{font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: red;
+	text-decoration: underline;}
+.mainbodytextBold a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+	BORDER: 0PX;
+	text-decoration: none;
+	}
+/*.Title A:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+	BORDER: 0PX;
+	text-decoration: none;
+	}*/
+.mainbodytextBold A:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+	BORDER: 0PX;
+	text-decoration: none;
+	}
+/*
+     FILE ARCHIVED ON 01:48:31 Jul 08, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:41:59 Jan 08, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.639
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 23.298
+  LoadShardBlock: 250.668 (3)
+  PetaboxLoader3.datanode: 267.393 (4)
+  load_resource: 238.064
+  PetaboxLoader3.resolve: 167.99
+*/
