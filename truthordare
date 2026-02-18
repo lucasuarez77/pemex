@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TRUTH OR DARE</title>
+</head>
+<body style="padding: 0px; margin: 0px"
+<img src="truth.gif" style="position:absolute;left:0px;bottom:0px;z-index:-100, width:100%;height:75%;">
+</body>
+</html>
