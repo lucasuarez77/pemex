@@ -9,24 +9,27 @@
       padding: 0;
       height: 100%;
       overflow: hidden;
+      background: black;
     }
 
-    body {
-      background-color: black;
+    .grid-wrapper {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200vw;   /* deliberately overfill */
+      height: 200vh;  /* deliberately overfill */
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 120px);
+      grid-auto-rows: 120px;
+      z-index: 0;
+    }
 
-      background-image:
-        url('chronicler.gif'),
-        url('grinberg.gif');
-
-      background-size:
-        240px 240px,
-        240px 240px;
-
-      background-position:
-        center center,
-        calc(50% + 120px) calc(50% + 120px);
-
-      background-repeat: repeat;
+    .tile {
+      width: 120px;
+      height: 120px;
+      background-size: cover;
+      background-position: center;
     }
 
     .overlay {
@@ -35,8 +38,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
       z-index: 2;
+      text-align: center;
     }
 
     .overlay h1 {
@@ -53,11 +56,36 @@
 
 <body>
 
+  <div class="grid-wrapper" id="grid"></div>
+
   <div class="overlay">
     <a href="./nutrients">
       <h1>CIA-RDP96-007-89R001001420001-3</h1>
     </a>
   </div>
+
+  <script>
+    const grid = document.getElementById("grid");
+    const tileSize = 120;
+
+    const rows = Math.ceil((window.innerHeight * 2) / tileSize);
+    const cols = Math.ceil((window.innerWidth * 2) / tileSize);
+
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const tile = document.createElement("div");
+        tile.classList.add("tile");
+
+        if ((r + c) % 2 === 0) {
+          tile.style.backgroundImage = "url('chronicler.gif')";
+        } else {
+          tile.style.backgroundImage = "url('grinberg.gif')";
+        }
+
+        grid.appendChild(tile);
+      }
+    }
+  </script>
 
 </body>
 </html>
